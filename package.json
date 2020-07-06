@@ -18,7 +18,7 @@
     "algoliasearch": "JonasBa/algoliasearch-client-javascript#0a90690",
     "classnames": "^2.2.6",
     "core-js": "3",
-    "date-fns": "^2.0.1",
+    "date-fns": "^2.14.0",
     "downshift": "^3.2.10",
     "normalize-scss": "^7.0.1",
     "query-string": "^6.5.0",
