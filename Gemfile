@@ -19,7 +19,7 @@ gem 'haml-rails'
 gem 'httparty'
 gem 'jbuilder'
 gem 'open_uri_redirections'
-gem 'rails', '~> 5.1.0'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'rest-client'
 gem 'simple-rss'
 gem 'simple_enum', '~> 1.6.9'
@@ -65,5 +65,5 @@ group :development, :test do
   gem 'factory_bot_rails'
 end
 group :test do
-  gem 'minitest-spec-rails'
+  gem 'minitest-spec-rails', '>= 5.5.0'
 end
