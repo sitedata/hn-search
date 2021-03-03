@@ -2,24 +2,24 @@ source 'https://rubygems.org'
 
 ruby '2.6.2'
 
-gem 'actionpack-action_caching'
-gem 'active_model_serializers', '~> 0.10.9'
+gem 'actionpack-action_caching', '>= 1.2.1'
+gem 'active_model_serializers', '~> 0.10.10'
 gem 'activesupport', '~> 5.1.0'
 gem 'algoliasearch-rails', '~> 1.20.6'
 gem 'aws-sdk', '~> 3.0'
 gem 'bitters'
 gem 'bluepill'
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.3'
 gem 'em-http-request'
 gem 'eventmachine'
 gem 'figaro'
 gem 'firebase', '0.2.2'
 gem 'groupdate'
-gem 'haml-rails'
+gem 'haml-rails', '>= 2.0.0'
 gem 'httparty'
 gem 'jbuilder'
 gem 'open_uri_redirections'
-gem 'rails', '~> 5.1.0'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'rest-client'
 gem 'simple-rss'
 gem 'simple_enum', '~> 1.6.9'
@@ -28,7 +28,7 @@ gem 'therubyracer'
 gem 'thin'
 gem 'turnout'
 gem 'uglifier', '>= 1.3.0'
-gem 'webpacker', '~> 4.x'
+gem 'webpacker', '~> 4.0', '>= 4.0.2'
 gem 'whenever'
 
 group :development do
@@ -57,13 +57,13 @@ group :development do
   gem 'terminal-notifier-guard'
 end
 group :production do
-  gem 'lograge'
+  gem 'lograge', '>= 0.11.0'
   gem 'mysql2', '< 0.5'
   gem 'sentry-raven'
 end
 group :development, :test do
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 5.0.2'
 end
 group :test do
-  gem 'minitest-spec-rails'
+  gem 'minitest-spec-rails', '>= 5.5.0'
 end
